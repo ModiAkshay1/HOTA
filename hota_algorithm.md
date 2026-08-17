@@ -317,6 +317,8 @@ LocA_\alpha
 }
 \]
 
+If TP=0, then LocA = 0
+
 ---
 
 ### 11. Association Recall and Precision
@@ -534,6 +536,21 @@ AssA_\alpha
 }
 }
 \]
+
+Also:
+
+\[
+OWTA_\alpha
+=
+\sqrt{
+DetRe_\alpha
+\cdot
+AssA_\alpha
+}.
+\]    
+
+OWTA score focuses only on matched detections by not inluding FP's 
+
 
 ---
 
